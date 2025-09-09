@@ -1,6 +1,6 @@
 body {
 background: rgb(165, 3, 3);
-color: rgb(250, 244, 244);
+color: rgb(3, 3, 3);
 padding: 10px;
 font-family: Arial, sans-serif;
 }
@@ -24,7 +24,7 @@ padding: 10px;
 h1 {
 display: flex;
 align-items: center;
-color: white;
+color: rgb(204, 1, 1);
 flex: 1;
 margin: 0;
 }
@@ -46,7 +46,7 @@ padding: 0 10px;
 
 a {
 text-decoration: none;
-color: #fff;
+color: #000000;
 }
 
 
