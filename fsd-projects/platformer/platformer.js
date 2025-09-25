@@ -22,10 +22,7 @@ $(function () {
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
 
-    //////////////////////////////////
-    // ONLY CHANGE BELOW THIS POINT //
-    //////////////////////////////////
-
+   
     // TODO 1 - Enable the Grid
     // toggleGrid();
 
@@ -45,41 +42,15 @@ createPlatform(1025, 250, 100, 10, "black")
 
 
 
-// TODO 3 - Create Collectables
-//createCollectable("type", xPos, yPos, gravityNum, bounceNum Between 0 and .99)
-//type can be any of these. In "". database diamond grace kennedi max steve
+
 createCollectable("database", 700, 100, 1, 1)
 createCollectable("kennedi", 500, 100, 1, 0)
 createCollectable("max", 800, 100, 1, 0)
 
-// TODO 4 - Create Cannons
-//createCannon(wallLocation, position, timeBetweenShots, width, height)
-
-//Cannon on the top side of the canvas. at position 700, about mid way through.
 createCannon("top", 200, 1000);
-
-//Cannon on the right side of the canvas. at position 200, about 1/4 through.
 createCannon("right", 300, 1000);
-
-//Cannon on the left side of the canvas. at position 400, about 1/2 through.
 createCannon("left", 400, 1000);
-
-
-
-
-    // TODO 3 - Create Collectables
-
-
-
     
-    // TODO 4 - Create Cannons
-
-
-    
-    
-    //////////////////////////////////
-    // ONLY CHANGE ABOVE THIS POINT //
-    //////////////////////////////////
   }
 
   registerSetup(setup);
